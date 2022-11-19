@@ -5,7 +5,7 @@ export const load = async ({ params }) => {
 	console.log('params :>> ', params);
 	try {
 		// TODO: Normalise how the slug is handled. Is the frontmattter or the filename canonical?
-		post = await import(`../../content/${params.path}.md`);
+		post = await import(`../../../../content/${params.slug}.md`);
 	} catch (e) {
 		throw error(404, 'Not found');
 	}
