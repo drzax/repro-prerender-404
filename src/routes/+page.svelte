@@ -1,3 +1,4 @@
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-<a href="/a-path/">A path</a>
+<a href="/test/">A path that exists</a>
+<a href="/missing/">A path that does not</a>
