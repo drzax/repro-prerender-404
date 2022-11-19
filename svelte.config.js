@@ -6,7 +6,8 @@ import preprocess from 'svelte-preprocess';
 const config = {
 	extensions: ['.svelte', '.md'],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		trailingSlash: 'always'
 	},
 	preprocess: [
 		mdsvex({
