@@ -7,7 +7,7 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	kit: {
 		adapter: adapter(),
-		trailingSlash: 'always'
+		trailingSlash: 'never'
 	},
 	preprocess: [
 		mdsvex({
